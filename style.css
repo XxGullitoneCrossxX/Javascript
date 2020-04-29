@@ -1,0 +1,50 @@
+.main-header{
+
+	display:flex;
+	
+	justify-content: center;
+
+}
+.List-Grid{
+
+	display: grid;
+	margin-left: 25%;
+	margin-right: 25%;
+	grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+	gap: 20px;
+	justify-content: center;
+	justify-items: center;
+}
+
+#enter{
+	cursor:pointer;
+	width:20%;
+	border-radius: 50px;
+	background-color: orange;
+	border:none;
+	padding:1% 0%;
+	color:#fff;
+}
+
+.innerButton{
+	display: block;
+	cursor:pointer;
+	width:100%;
+	border-radius: 50px;
+	background-color: red;
+	border:none;
+	padding:5% 0%;
+	color:#fff;
+
+}
+
+.List_Style {
+	display: flex;
+
+	justify-content: center;
+}
+
+li {
+
+	margin-bottom: 5px;
+}
